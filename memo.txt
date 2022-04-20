@@ -1,0 +1,32 @@
+리액트를 다루는 기술 (개정판) / 길벗 출판사
+
+typescript와 redux 함께 배울 예정
+redux : 데이터 흐름 등 react의 상태 관리를 하는 라이브러리
+
+node.js를 이용하면 직접 서버를 만들 수 있다 (포트번호도 지정해줄 수 있음)
+블로킹(동기)
+논블로킹(비동기)
+논블로킹을 통해 java의 쓰레드 효과를 내서 서버 프로그래밍을 하는 것
+express라는 프레임워크를 이용해서 서버를 만든다
+
+npm : Node Package Manager(혹은 Node Package Module)의 줄임말로써 Python의 pip나 Ruby의 gem처럼 Node.js의 패키지를 관리할 수 있는 도구이다. 또한 npm을 사용하여 패키지를 공유하는 온라인 패키지 저장소의 이름이기도 하다.
+
+패키지 매니저의 종류 (섞어쓰는 편)
+npm
+yarn
+npx
+
+npx create-react-app my-app : 리액트 프로젝트를 생성하는 명령어
+
+index.js가 부모 App.js가 자식. App.js가 메인화면
+import로 이미지, 파일 등등 다 가져온다
+
+지금까지는 html 한 페이지에 다 붙여서 페이지를 만든 거라면
+react는 컴포넌트 요소별로 따로따로 만들어서 조립하는 식
+
+리액트의 특징
+1. 컴포넌트 객체
+2. 렌더링 작업
+
+babel은 react 문법으로 작성한 코드를 기존 javascript 코드 형식으로 바꿔준다
+최신 문법이 하위 문법에서 실행되도록 해준다는 점도 중요
